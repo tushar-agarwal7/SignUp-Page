@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+.container{
+    display: flex;
+
+}
+
+.image img{
+    height: 100vh;
+    width:100vw;
+   
+}
+
+form input{
+    background-color:rgba(255, 255,255, 0.1) !important;
+    color: white !important;
+}
+
+form input:focus {
+    outline: none !important;
+    border-color: #007bff !important;
+}
+footer{
+   background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
